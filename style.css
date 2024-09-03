@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(Gilroy-Regular.ttf);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+   width: 100%;
+   background-color: black;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 20px;
+}
+#nav #first{
+    font-size: 1.4vw;
+    color: white;
+}
+#nav-right{
+    display: flex;
+    gap:90px;
+}
+#nav-right h4{
+    font-size: 1.5vw;
+    color: white;
+}
+#center h1{
+    color: white;
+    position: relative;
+    z-index: 999;
+}
+#center  #pahla{
+    padding-top: 80px;
+    margin-left: 200px;
+    font-size: 10vw;
+    letter-spacing: -0.3vw;
+}
+#center #dusra{
+    font-size: 10vw;
+    margin-left: 400px;
+    margin-top: -50px;
+    letter-spacing: -0.3vw;
+}
+#center #teesra{
+    font-size: 10vw;
+    margin-left: 630px;
+    margin-top: -50px;
+}
+#center img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    top:20%;
+    left:37%;
+}
+#img1{
+  rotate: 10deg;
+}
+#img2{
+   rotate: -11deg;
+}
+#img3{
+    rotate: 25deg;
+}
+
+
+
+
